@@ -1,13 +1,12 @@
-
 const data = {
     nombre: 'Luis', 
     apellido: 'Ibañez' ,
     edad: 24,
     altura: 1.87,
     eresDesarrollador: true
-}
+};
 
-const myAge = data.edad
+const myAge = data.edad;
 
 
 const list = [ data, 
@@ -24,9 +23,7 @@ const list = [ data,
     edad: 25,
     altura: 1.85,
     eresDesarrollador: false
-}]
+}];
 
 
-const newlist = [...list].sort(( a, b ) => a.edad - b.edad)
-
-
+const newlist = [...list].sort(( a, b ) => a.edad - b.edad);
